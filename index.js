@@ -6,9 +6,10 @@ function addBurger () {
     burgers.push(newBurger)
 }
 if (1 > 0) {
-    var anotherNewBurger = "Maple Bacon Burger"
-    burgers.push(anotherNewBurger)
+    const anotherNewBurger = "Maple Bacon Burger";
+    burgers.push(anotherNewBurger);
+    return true;
 }
 function changeFeaturedDrink () {
-    var FeaturedDrink = "The JavaShake";
+    let FeaturedDrink = "The JavaShake";
 }
