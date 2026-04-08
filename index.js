@@ -8,8 +8,7 @@ function addBurger () {
 if (1 > 0) {
     const anotherNewBurger = "Maple Bacon Burger";
     burgers.push(anotherNewBurger);
-    return true;
 }
 function changeFeaturedDrink () {
-    let FeaturedDrink = "The JavaShake";
+    let featuredDrink = "The JavaShake";
 }
