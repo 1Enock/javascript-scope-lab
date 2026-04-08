@@ -1,14 +1,14 @@
 const burgers = ["Hamburger", "Cheeseburger"]
-var featuredDrink = "Strawberry Milkshake"
+let featuredDrink = "Strawberry Milkshake"
 
 function addBurger () {
     const newBurger = "Flatburger";
     burgers.push(newBurger)
 }
-if (true) {
+if (1 > 0) {
     const anotherNewBurger = "Maple Bacon Burger";
     burgers.push(anotherNewBurger);
 }
 function changeFeaturedDrink () {
- featuredDrink = "The JavaShake";
+ let featuredDrink = "The JavaShake";
 }
